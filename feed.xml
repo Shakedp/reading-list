@@ -231,5 +231,18 @@
       <enclosure url="https://shakedp.github.io/reading-list/17-helm-kustomize-k9s.mp3" length="34682356"
                  type="audio/mpeg"/>
     </item>
+    <item>
+      <title>18. Demo: testing the upload skill</title>
+      <link>https://shakedp.github.io/reading-list</link>
+      <guid isPermaLink="false">reading-list-18</guid>
+      <pubDate>Wed, 09 Sep 2026 02:00:00 +0000</pubDate>
+      <itunes:episode>18</itunes:episode>
+      <itunes:duration>0:49</itunes:duration>
+      <itunes:summary>A test episode made on the Mac with text-to-speech instead of NotebookLM, to check the upload skill end to end: transcode, tags, chapters, feed, GitHub Pages. Safe to delete.</itunes:summary>
+      <description>&lt;p&gt;A test episode made on the Mac with text-to-speech instead of NotebookLM, to check the upload skill end to end: transcode, tags, chapters, feed, GitHub Pages. Safe to delete.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Chapters&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;0:00 &amp;mdash; Intro&lt;/li&gt;&lt;li&gt;0:12 &amp;mdash; What the upload did&lt;/li&gt;&lt;li&gt;0:27 &amp;mdash; What to check on your phone&lt;/li&gt;&lt;li&gt;0:39 &amp;mdash; Cleanup&lt;/li&gt;&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<p>A test episode made on the Mac with text-to-speech instead of NotebookLM, to check the upload skill end to end: transcode, tags, chapters, feed, GitHub Pages. Safe to delete.</p><p><strong>Chapters</strong></p><ul><li>0:00 &mdash; Intro</li><li>0:12 &mdash; What the upload did</li><li>0:27 &mdash; What to check on your phone</li><li>0:39 &mdash; Cleanup</li></ul>]]></content:encoded>
+      <enclosure url="https://shakedp.github.io/reading-list/18-demo-testing-the-upload-skill.mp3" length="491712"
+                 type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
