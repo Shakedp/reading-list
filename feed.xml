@@ -335,5 +335,18 @@
       <enclosure url="https://shakedp.github.io/reading-list/25-cryod-inside-the-pod.mp3" length="20283594"
                  type="audio/mpeg"/>
     </item>
+    <item>
+      <title>26. cryod IV: patches and policy</title>
+      <link>https://notebook.google.com/notebook/b34b40fa-7cee-42d9-b953-e900b37544dc</link>
+      <guid isPermaLink="false">reading-list-26</guid>
+      <pubDate>Wed, 09 Sep 2026 10:00:00 +0000</pubDate>
+      <itunes:episode>26</itunes:episode>
+      <itunes:duration>33:46</itunes:duration>
+      <itunes:summary>Why stock engines cannot be checkpointed, the forks that fix it, and what the webhook refuses</itunes:summary>
+      <description>&lt;p&gt;Why stock engines cannot be checkpointed, the forks that fix it, and what the webhook refuses&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Chapters&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;0:00 &amp;mdash; Intro&lt;/li&gt;&lt;li&gt;1:54 &amp;mdash; patch-env, fork, ncclCommSuspendAll&lt;/li&gt;&lt;li&gt;6:13 &amp;mdash; sleep arena&lt;/li&gt;&lt;li&gt;9:25 &amp;mdash; torch_memory_saver, cuMem allocator&lt;/li&gt;&lt;li&gt;10:59 &amp;mdash; cache transceiver&lt;/li&gt;&lt;li&gt;14:07 &amp;mdash; patch manifest, upstream tag, generate-patches&lt;/li&gt;&lt;li&gt;17:29 &amp;mdash; pre-exec dispatcher&lt;/li&gt;&lt;li&gt;20:01 &amp;mdash; success marker&lt;/li&gt;&lt;li&gt;22:09 &amp;mdash; engine policy, admission-time validation, argv parsing&lt;/li&gt;&lt;li&gt;24:35 &amp;mdash; tensor parallelism, data parallelism, pipeline parallelism&lt;/li&gt;&lt;li&gt;27:30 &amp;mdash; KV connector, NIXL, driver whitelist&lt;/li&gt;&lt;li&gt;29:18 &amp;mdash; opaque shell command, node-side denial&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://notebook.google.com/notebook/b34b40fa-7cee-42d9-b953-e900b37544dc"&gt;Notebook&lt;/a&gt; &amp;mdash; sources and the quiz.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Why stock engines cannot be checkpointed, the forks that fix it, and what the webhook refuses</p><p><strong>Chapters</strong></p><ul><li>0:00 &mdash; Intro</li><li>1:54 &mdash; patch-env, fork, ncclCommSuspendAll</li><li>6:13 &mdash; sleep arena</li><li>9:25 &mdash; torch_memory_saver, cuMem allocator</li><li>10:59 &mdash; cache transceiver</li><li>14:07 &mdash; patch manifest, upstream tag, generate-patches</li><li>17:29 &mdash; pre-exec dispatcher</li><li>20:01 &mdash; success marker</li><li>22:09 &mdash; engine policy, admission-time validation, argv parsing</li><li>24:35 &mdash; tensor parallelism, data parallelism, pipeline parallelism</li><li>27:30 &mdash; KV connector, NIXL, driver whitelist</li><li>29:18 &mdash; opaque shell command, node-side denial</li></ul><p><a href="https://notebook.google.com/notebook/b34b40fa-7cee-42d9-b953-e900b37544dc">Notebook</a> &mdash; sources and the quiz.</p>]]></content:encoded>
+      <enclosure url="https://shakedp.github.io/reading-list/26-cryod-patches-and-policy.mp3" length="23350270"
+                 type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
