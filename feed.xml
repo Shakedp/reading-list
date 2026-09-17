@@ -296,5 +296,18 @@
       <enclosure url="https://shakedp.github.io/reading-list/22-shm-zerocopy-atomic.mp3" length="25975544"
                  type="audio/mpeg"/>
     </item>
+    <item>
+      <title>23. cryod I: the substitution</title>
+      <link>https://notebook.google.com/notebook/ddeb1320-9785-4f57-ab5b-6510fff8fc2d</link>
+      <guid isPermaLink="false">reading-list-23</guid>
+      <pubDate>Wed, 09 Sep 2026 07:00:00 +0000</pubDate>
+      <itunes:episode>23</itunes:episode>
+      <itunes:duration>38:37</itunes:duration>
+      <itunes:summary>What cryod replaces, its three components, and the two lifetimes a managed pod can have</itunes:summary>
+      <description>&lt;p&gt;What cryod replaces, its three components, and the two lifetimes a managed pod can have&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Chapters&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;0:00 &amp;mdash; Intro&lt;/li&gt;&lt;li&gt;1:46 &amp;mdash; admission webhook, CRI, CRIU&lt;/li&gt;&lt;li&gt;5:52 &amp;mdash; kernel compilation, CUDA graph capture, NCCL initialization&lt;/li&gt;&lt;li&gt;9:38 &amp;mdash; restore, checkpoint, cuda-checkpoint&lt;/li&gt;&lt;li&gt;14:00 &amp;mdash; additive system, DaemonSet&lt;/li&gt;&lt;li&gt;16:25 &amp;mdash; node agent, nsenter&lt;/li&gt;&lt;li&gt;18:45 &amp;mdash; fingerprint, circuit breaker&lt;/li&gt;&lt;li&gt;23:04 &amp;mdash; restore mode, cache key&lt;/li&gt;&lt;li&gt;25:25 &amp;mdash; cache hit, cache miss, stateless webhook&lt;/li&gt;&lt;li&gt;28:43 &amp;mdash; snapshot-agent, pid-init&lt;/li&gt;&lt;li&gt;31:02 &amp;mdash; fail open, failurePolicy Ignore, host-memory ledger&lt;/li&gt;&lt;li&gt;34:04 &amp;mdash; cold-start fallback&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://notebook.google.com/notebook/ddeb1320-9785-4f57-ab5b-6510fff8fc2d"&gt;Notebook&lt;/a&gt; &amp;mdash; sources and the quiz.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>What cryod replaces, its three components, and the two lifetimes a managed pod can have</p><p><strong>Chapters</strong></p><ul><li>0:00 &mdash; Intro</li><li>1:46 &mdash; admission webhook, CRI, CRIU</li><li>5:52 &mdash; kernel compilation, CUDA graph capture, NCCL initialization</li><li>9:38 &mdash; restore, checkpoint, cuda-checkpoint</li><li>14:00 &mdash; additive system, DaemonSet</li><li>16:25 &mdash; node agent, nsenter</li><li>18:45 &mdash; fingerprint, circuit breaker</li><li>23:04 &mdash; restore mode, cache key</li><li>25:25 &mdash; cache hit, cache miss, stateless webhook</li><li>28:43 &mdash; snapshot-agent, pid-init</li><li>31:02 &mdash; fail open, failurePolicy Ignore, host-memory ledger</li><li>34:04 &mdash; cold-start fallback</li></ul><p><a href="https://notebook.google.com/notebook/ddeb1320-9785-4f57-ab5b-6510fff8fc2d">Notebook</a> &mdash; sources and the quiz.</p>]]></content:encoded>
+      <enclosure url="https://shakedp.github.io/reading-list/23-cryod-the-substitution.mp3" length="26757056"
+                 type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
