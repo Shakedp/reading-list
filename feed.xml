@@ -348,5 +348,18 @@
       <enclosure url="https://shakedp.github.io/reading-list/26-cryod-patches-and-policy.mp3" length="23350270"
                  type="audio/mpeg"/>
     </item>
+    <item>
+      <title>27. cryod V: shipping it</title>
+      <link>https://notebook.google.com/notebook/84b14336-02ca-4168-9d00-17547ad1307e</link>
+      <guid isPermaLink="false">reading-list-27</guid>
+      <pubDate>Wed, 09 Sep 2026 11:00:00 +0000</pubDate>
+      <itunes:episode>27</itunes:episode>
+      <itunes:duration>41:12</itunes:duration>
+      <itunes:summary>What the chart installs, the customer's contract, and why promotion to the client registry is manual</itunes:summary>
+      <description>&lt;p&gt;What the chart installs, the customer's contract, and why promotion to the client registry is manual&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Chapters&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;0:00 &amp;mdash; fingerprint, cryod/hash label, pod contract&lt;/li&gt;&lt;li&gt;1:57 &amp;mdash; Helm release, hostNetwork, hostPID&lt;/li&gt;&lt;li&gt;4:47 &amp;mdash; demos, memory limit, RDMA pinning&lt;/li&gt;&lt;li&gt;6:49 &amp;mdash; timeout override, etcd StatefulSet&lt;/li&gt;&lt;li&gt;10:08 &amp;mdash; version bump&lt;/li&gt;&lt;li&gt;14:23 &amp;mdash; digest, imagePullSecret&lt;/li&gt;&lt;li&gt;18:59 &amp;mdash; skip reason, warmup, DynamoGraphDeployment&lt;/li&gt;&lt;li&gt;21:28 &amp;mdash; registry credentials, registry-config&lt;/li&gt;&lt;li&gt;24:20 &amp;mdash; internal registry, Google Artifact Registry, registry mirror&lt;/li&gt;&lt;li&gt;26:52 &amp;mdash; geo-blocking, registry override&lt;/li&gt;&lt;li&gt;29:27 &amp;mdash; image tag scheme, sha tag&lt;/li&gt;&lt;li&gt;31:48 &amp;mdash; OCI artifact&lt;/li&gt;&lt;li&gt;33:52 &amp;mdash; customer-facing registry, manual promotion&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://notebook.google.com/notebook/84b14336-02ca-4168-9d00-17547ad1307e"&gt;Notebook&lt;/a&gt; &amp;mdash; sources and the quiz.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>What the chart installs, the customer's contract, and why promotion to the client registry is manual</p><p><strong>Chapters</strong></p><ul><li>0:00 &mdash; fingerprint, cryod/hash label, pod contract</li><li>1:57 &mdash; Helm release, hostNetwork, hostPID</li><li>4:47 &mdash; demos, memory limit, RDMA pinning</li><li>6:49 &mdash; timeout override, etcd StatefulSet</li><li>10:08 &mdash; version bump</li><li>14:23 &mdash; digest, imagePullSecret</li><li>18:59 &mdash; skip reason, warmup, DynamoGraphDeployment</li><li>21:28 &mdash; registry credentials, registry-config</li><li>24:20 &mdash; internal registry, Google Artifact Registry, registry mirror</li><li>26:52 &mdash; geo-blocking, registry override</li><li>29:27 &mdash; image tag scheme, sha tag</li><li>31:48 &mdash; OCI artifact</li><li>33:52 &mdash; customer-facing registry, manual promotion</li></ul><p><a href="https://notebook.google.com/notebook/84b14336-02ca-4168-9d00-17547ad1307e">Notebook</a> &mdash; sources and the quiz.</p>]]></content:encoded>
+      <enclosure url="https://shakedp.github.io/reading-list/27-cryod-shipping-it.mp3" length="28119072"
+                 type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
