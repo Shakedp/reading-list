@@ -309,5 +309,18 @@
       <enclosure url="https://shakedp.github.io/reading-list/23-cryod-the-substitution.mp3" length="26757056"
                  type="audio/mpeg"/>
     </item>
+    <item>
+      <title>24. cryod II: the checkpoint store</title>
+      <link>https://notebook.google.com/notebook/7b51d281-f9f7-4200-9955-45a2d7ee1477</link>
+      <guid isPermaLink="false">reading-list-24</guid>
+      <pubDate>Wed, 09 Sep 2026 08:00:00 +0000</pubDate>
+      <itunes:episode>24</itunes:episode>
+      <itunes:duration>33:21</itunes:duration>
+      <itunes:summary>Where a checkpoint lives, how another node gets it, and why an atomic rename is the commit</itunes:summary>
+      <description>&lt;p&gt;Where a checkpoint lives, how another node gets it, and why an atomic rename is the commit&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Chapters&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;0:00 &amp;mdash; Intro&lt;/li&gt;&lt;li&gt;1:56 &amp;mdash; storage engine, checkpoint-exists, two-second budget&lt;/li&gt;&lt;li&gt;3:51 &amp;mdash; control plane&lt;/li&gt;&lt;li&gt;5:24 &amp;mdash; snapshot-agent, mooncake, data plane&lt;/li&gt;&lt;li&gt;9:13 &amp;mdash; gold tier, tmpfs, pages image&lt;/li&gt;&lt;li&gt;11:38 &amp;mdash; register-batch, discovery key&lt;/li&gt;&lt;li&gt;14:20 &amp;mdash; staging directory&lt;/li&gt;&lt;li&gt;16:48 &amp;mdash; atomic rename, renameat, commit point&lt;/li&gt;&lt;li&gt;18:31 &amp;mdash; same-node fast path&lt;/li&gt;&lt;li&gt;20:53 &amp;mdash; pull-batch, cross-node restore, RDMA&lt;/li&gt;&lt;li&gt;23:36 &amp;mdash; storage tier, lease-bound, S3 tier&lt;/li&gt;&lt;li&gt;25:53 &amp;mdash; tiered mode, GPU-direct weights&lt;/li&gt;&lt;li&gt;28:08 &amp;mdash; donor restore&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://notebook.google.com/notebook/7b51d281-f9f7-4200-9955-45a2d7ee1477"&gt;Notebook&lt;/a&gt; &amp;mdash; sources and the quiz.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Where a checkpoint lives, how another node gets it, and why an atomic rename is the commit</p><p><strong>Chapters</strong></p><ul><li>0:00 &mdash; Intro</li><li>1:56 &mdash; storage engine, checkpoint-exists, two-second budget</li><li>3:51 &mdash; control plane</li><li>5:24 &mdash; snapshot-agent, mooncake, data plane</li><li>9:13 &mdash; gold tier, tmpfs, pages image</li><li>11:38 &mdash; register-batch, discovery key</li><li>14:20 &mdash; staging directory</li><li>16:48 &mdash; atomic rename, renameat, commit point</li><li>18:31 &mdash; same-node fast path</li><li>20:53 &mdash; pull-batch, cross-node restore, RDMA</li><li>23:36 &mdash; storage tier, lease-bound, S3 tier</li><li>25:53 &mdash; tiered mode, GPU-direct weights</li><li>28:08 &mdash; donor restore</li></ul><p><a href="https://notebook.google.com/notebook/7b51d281-f9f7-4200-9955-45a2d7ee1477">Notebook</a> &mdash; sources and the quiz.</p>]]></content:encoded>
+      <enclosure url="https://shakedp.github.io/reading-list/24-cryod-checkpoint-store.mp3" length="23092098"
+                 type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
