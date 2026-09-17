@@ -322,5 +322,18 @@
       <enclosure url="https://shakedp.github.io/reading-list/24-cryod-checkpoint-store.mp3" length="23092098"
                  type="audio/mpeg"/>
     </item>
+    <item>
+      <title>25. cryod III: inside the pod</title>
+      <link>https://notebook.google.com/notebook/7d2958e7-1319-4986-a6dc-30806eb3fbc7</link>
+      <guid isPermaLink="false">reading-list-25</guid>
+      <pubDate>Wed, 09 Sep 2026 09:00:00 +0000</pubDate>
+      <itunes:episode>25</itunes:episode>
+      <itunes:duration>29:07</itunes:duration>
+      <itunes:summary>pid-init, the signal protocol, burning 100,000 PIDs, and what the CRIU fork adds</itunes:summary>
+      <description>&lt;p&gt;pid-init, the signal protocol, burning 100,000 PIDs, and what the CRIU fork adds&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Chapters&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;0:00 &amp;mdash; Intro&lt;/li&gt;&lt;li&gt;1:55 &amp;mdash; criuDumpCtx, criuRestoreCtx, PID 1&lt;/li&gt;&lt;li&gt;4:16 &amp;mdash; ns_last_pid, pre-exec, signal protocol&lt;/li&gt;&lt;li&gt;6:20 &amp;mdash; PID burning, wait timeout, armed sentinel&lt;/li&gt;&lt;li&gt;8:21 &amp;mdash; SIGUSR2&lt;/li&gt;&lt;li&gt;11:12 &amp;mdash; PID 100000, fresh PID namespace&lt;/li&gt;&lt;li&gt;12:49 &amp;mdash; FIFO, setsid&lt;/li&gt;&lt;li&gt;18:13 &amp;mdash; CUDA plugin, ghost-limit&lt;/li&gt;&lt;li&gt;20:14 &amp;mdash; shell-job, page workers&lt;/li&gt;&lt;li&gt;24:16 &amp;mdash; memory policy at dump, cuda_state_fixup&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://notebook.google.com/notebook/7d2958e7-1319-4986-a6dc-30806eb3fbc7"&gt;Notebook&lt;/a&gt; &amp;mdash; sources and the quiz.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>pid-init, the signal protocol, burning 100,000 PIDs, and what the CRIU fork adds</p><p><strong>Chapters</strong></p><ul><li>0:00 &mdash; Intro</li><li>1:55 &mdash; criuDumpCtx, criuRestoreCtx, PID 1</li><li>4:16 &mdash; ns_last_pid, pre-exec, signal protocol</li><li>6:20 &mdash; PID burning, wait timeout, armed sentinel</li><li>8:21 &mdash; SIGUSR2</li><li>11:12 &mdash; PID 100000, fresh PID namespace</li><li>12:49 &mdash; FIFO, setsid</li><li>18:13 &mdash; CUDA plugin, ghost-limit</li><li>20:14 &mdash; shell-job, page workers</li><li>24:16 &mdash; memory policy at dump, cuda_state_fixup</li></ul><p><a href="https://notebook.google.com/notebook/7d2958e7-1319-4986-a6dc-30806eb3fbc7">Notebook</a> &mdash; sources and the quiz.</p>]]></content:encoded>
+      <enclosure url="https://shakedp.github.io/reading-list/25-cryod-inside-the-pod.mp3" length="20283594"
+                 type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
