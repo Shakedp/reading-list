@@ -426,5 +426,18 @@
       <enclosure url="https://shakedp.github.io/reading-list/32-gpu-operator-driver-upgrades.mp3" length="12350213"
                  type="audio/mpeg"/>
     </item>
+    <item>
+      <title>35. Mount propagation: how a container publishes a filesystem to the host</title>
+      <link>https://notebook.google.com/notebook/5918f0f4-cb5f-46d6-b18f-588206d4c26a</link>
+      <guid isPermaLink="false">reading-list-35</guid>
+      <pubDate>Wed, 09 Sep 2026 19:00:00 +0000</pubDate>
+      <itunes:episode>35</itunes:episode>
+      <itunes:duration>5:51</itunes:duration>
+      <itunes:summary>Mount namespaces, bind mounts, shared subtrees and peer groups, and Kubernetes mountPropagation -- how a driver container can expose its files to the host</itunes:summary>
+      <description>&lt;p&gt;Mount namespaces, bind mounts, shared subtrees and peer groups, and Kubernetes mountPropagation -- how a driver container can expose its files to the host&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Chapters&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;0:00 &amp;mdash; HostToContainer, mount namespace, mountPropagation&lt;/li&gt;&lt;li&gt;1:56 &amp;mdash; private mount, slave mount, unbindable mount&lt;/li&gt;&lt;li&gt;4:11 &amp;mdash; driver root, lazy unmount&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Sources&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://docs.kernel.org/filesystems/sharedsubtree.html"&gt;docs.kernel.org/sharedsubtree.html&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://man7.org/linux/man-pages/man7/mount_namespaces.7.html"&gt;man7.org/mount_namespaces.7.html&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://kubernetes.io/docs/concepts/storage/volumes/"&gt;kubernetes.io/volumes&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href="https://notebook.google.com/notebook/5918f0f4-cb5f-46d6-b18f-588206d4c26a"&gt;Notebook&lt;/a&gt; &amp;mdash; sources and the quiz.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Mount namespaces, bind mounts, shared subtrees and peer groups, and Kubernetes mountPropagation -- how a driver container can expose its files to the host</p><p><strong>Chapters</strong></p><ul><li>0:00 &mdash; HostToContainer, mount namespace, mountPropagation</li><li>1:56 &mdash; private mount, slave mount, unbindable mount</li><li>4:11 &mdash; driver root, lazy unmount</li></ul><p><strong>Sources</strong></p><ul><li><a href="https://docs.kernel.org/filesystems/sharedsubtree.html">docs.kernel.org/sharedsubtree.html</a></li><li><a href="https://man7.org/linux/man-pages/man7/mount_namespaces.7.html">man7.org/mount_namespaces.7.html</a></li><li><a href="https://kubernetes.io/docs/concepts/storage/volumes/">kubernetes.io/volumes</a></li></ul><p><a href="https://notebook.google.com/notebook/5918f0f4-cb5f-46d6-b18f-588206d4c26a">Notebook</a> &mdash; sources and the quiz.</p>]]></content:encoded>
+      <enclosure url="https://shakedp.github.io/reading-list/35-mount-propagation.mp3" length="3872137"
+                 type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
