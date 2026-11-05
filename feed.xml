@@ -517,5 +517,18 @@
       <enclosure url="https://shakedp.github.io/reading-list/40-python-type-checkers-ty.mp3" length="10174726"
                  type="audio/mpeg"/>
     </item>
+    <item>
+      <title>41. Syncing Weight Deltas for Disaggregated RL</title>
+      <link>https://shakedp.github.io/reading-list</link>
+      <guid isPermaLink="false">reading-list-41</guid>
+      <pubDate>Thu, 10 Sep 2026 01:00:00 +0000</pubDate>
+      <itunes:episode>41</itunes:episode>
+      <itunes:duration>53:10</itunes:duration>
+      <itunes:summary>How disaggregated RL post-training (verl, slime, Miles, prime-rl, NeMo RL) syncs compressed weight deltas from the trainer to managed multi-region vLLM inference endpoints using only object storage, hot-loading them in tens of seconds without restarts or dropped traffic.</itunes:summary>
+      <description>&lt;p&gt;How disaggregated RL post-training (verl, slime, Miles, prime-rl, NeMo RL) syncs compressed weight deltas from the trainer to managed multi-region vLLM inference endpoints using only object storage, hot-loading them in tens of seconds without restarts or dropped traffic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Sources&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://github.com/radixark/miles"&gt;radixark/miles&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://github.com/MoonshotAI/checkpoint-engine"&gt;MoonshotAI/checkpoint-engine&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://github.com/NVIDIA-NeMo/RL"&gt;NVIDIA-NeMo/RL&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://github.com/THUDM/slime"&gt;THUDM/slime&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://github.com/PrimeIntellect-ai/prime-rl"&gt;PrimeIntellect-ai/prime-rl&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://github.com/volcengine/verl"&gt;volcengine/verl&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://docs.vllm.ai/"&gt;vLLM docs&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://fireworks.ai/blog"&gt;Fireworks AI blog&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.baseten.co/blog/"&gt;Baseten blog&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<p>How disaggregated RL post-training (verl, slime, Miles, prime-rl, NeMo RL) syncs compressed weight deltas from the trainer to managed multi-region vLLM inference endpoints using only object storage, hot-loading them in tens of seconds without restarts or dropped traffic.</p><p><strong>Sources</strong></p><ul><li><a href="https://github.com/radixark/miles">radixark/miles</a></li><li><a href="https://github.com/MoonshotAI/checkpoint-engine">MoonshotAI/checkpoint-engine</a></li><li><a href="https://github.com/NVIDIA-NeMo/RL">NVIDIA-NeMo/RL</a></li><li><a href="https://github.com/THUDM/slime">THUDM/slime</a></li><li><a href="https://github.com/PrimeIntellect-ai/prime-rl">PrimeIntellect-ai/prime-rl</a></li><li><a href="https://github.com/volcengine/verl">volcengine/verl</a></li><li><a href="https://docs.vllm.ai/">vLLM docs</a></li><li><a href="https://fireworks.ai/blog">Fireworks AI blog</a></li><li><a href="https://www.baseten.co/blog/">Baseten blog</a></li></ul>]]></content:encoded>
+      <enclosure url="https://shakedp.github.io/reading-list/41-syncing-weight-deltas-disaggregated-rl.mp3" length="38287601"
+                 type="audio/mpeg"/>
+    </item>
   </channel>
 </rss>
