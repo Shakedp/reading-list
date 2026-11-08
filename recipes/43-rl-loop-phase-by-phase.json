@@ -1,0 +1,53 @@
+{
+ "episode": 43,
+ "file": "43-rl-loop-phase-by-phase.mp3",
+ "title": "The RL loop for LLMs, phase by phase",
+ "format": "deep-dive",
+ "length": "default",
+ "language": "en",
+ "focus": "Audience: inference-infrastructure engineers who know transformers, vLLM/SGLang serving, KV cache, tensor/expert parallelism and GPU clusters, but are new to reinforcement learning. Skip explaining what an LLM, token or GPU is.\n\nGoal: teach the reinforcement-learning loop used to post-train LLMs, phase by phase, using the pasted worked example (an open MoE model RL-trained to fix bugs in Python repos, rewarded by tests passing) as the running thread. Cover, in this order:\n1. Why RL after pretraining and SFT: optimizing against a checkable reward (tests, correct math answers) instead of imitating examples. Use DeepSeek-R1 and SWE-RL as real examples of what was RL-trained and on what reward. Why you need the weights.\n2. Starting point: base/SFT model, task set, sandboxed environment, programmatic reward.\n3. Rollout: inference engine generates groups of attempts per prompt, multi-turn agent episodes; returns tokens, logprobs and policy version; why rollout dominates GPU time.\n4. Reward: scoring each attempt; reward hacking example.\n5. Advantage: GRPO's group-relative baseline vs PPO's critic (value model); why all-pass or all-fail groups carry no signal. Explain with the 3-of-8 example.\n6. Training step: logprob ratio, clipping, KL penalty; what a logprob is; why training-vs-inference logprob mismatch matters.\n7. Weight sync: brief (about 2 minutes) — new weights must get back to the inference fleet every step; in-cluster NCCL/RDMA vs delta publish; policy version stamps. Do not go deep into delta formats or compression; a previous episode covered that.\n8. Loop at scale: steps take minutes, runs take hundreds to thousands of steps; synchronous vs fully async RL and staleness; evaluation and checkpoints. Use miles' GLM-5.2 run numbers where the source states them.\n\nRules: only state numbers the sources state and attribute them (say when a number is from the illustrative worked example). No hype or speculation. Do not read URLs or markup aloud. End with a concrete recap of the six phases in one or two sentences each, not a rhetorical question.\n\nHARD CONSTRAINTS for this take:\n- Keep the whole episode to about 15 minutes. Be tight: no long intro, start with the topic within 20 seconds.\n- Open plainly, no dramatic hook (no \"millions of times a second\", no 100,000-GPU imagery).\n- The reward is running the repository's hidden tests in the sandbox. Do NOT mention an AST parser or invent any other scoring mechanism.\n- Why you need the weights: the trainer must compute gradients and update every parameter; a closed API returns text, not gradients. Say it that way.\n- Weight sync deltas are full-weight differences: only the small fraction of values that changed in one step (miles: about 2% of parameters for BF16 rollouts, 0.5% for FP4). LoRA adapter sync is a SEPARATE, different option; do not say deltas are LoRA.\n- End with the six-phase recap and stop. No speculative closing question about future domains.\n",
+ "sources": [
+  {
+   "title": "GRPO Trainer · Hugging Face",
+   "type": "web_page",
+   "url": "https://huggingface.co/docs/trl/main/en/grpo_trainer"
+  },
+  {
+   "title": "Miles v0.1: Production-level Post-training - LMSYS Org",
+   "type": "web_page",
+   "url": "https://www.lmsys.org/blog/2026-08-18-miles-v0-1/"
+  },
+  {
+   "title": "PPO for LLMs: A Guide for Normal People",
+   "type": "web_page",
+   "url": "https://cameronrwolfe.substack.com/p/ppo-llm"
+  },
+  {
+   "title": "Pasted text 1",
+   "type": "markdown"
+  },
+  {
+   "title": "Weight Transfer - vLLM",
+   "type": "web_page",
+   "url": "https://docs.vllm.ai/en/latest/training/weight_transfer/"
+  },
+  {
+   "title": "[2402.03300] DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+   "type": "web_page",
+   "url": "https://arxiv.org/abs/2402.03300"
+  },
+  {
+   "title": "[2501.12948] DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+   "type": "web_page",
+   "url": "https://arxiv.org/abs/2501.12948"
+  },
+  {
+   "title": "[2502.18449] SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution",
+   "type": "web_page",
+   "url": "https://arxiv.org/abs/2502.18449"
+  }
+ ],
+ "generated_at": "2026-11-08T15:29:21+00:00",
+ "generator": "NotebookLM CLI, version 0.8.6 (956400aa)",
+ "review_notes": "# Review log\n- take1 (20:06): core loop correct (GRPO 3-of-8 math, ratio/clip/KL, miles GLM-5.2 numbers, SWE-RL 41.0%). Problems: too long for a 15-min target; invented an \"AST parser\" as the reward (reward = hidden tests); claimed delta sync \"often uses LoRA adapters\" (wrong: deltas are full-weight diffs, LoRA is a separate option); hype opener (\"millions of times a second\", 100k GPUs); speculative rhetorical ending; muddled \"why you need weights\" (it's gradients, not logprobs).\n- take2 (20:32): fixed every take1 problem (reward = hidden tests, no AST parser; deltas explicitly full-weight, not LoRA; plain opener; gradients argument; recap ending). Remaining minor slips, accepted: attributes delta sparsity to clipping (mostly BF16 rounding of tiny updates), and says logprob mismatch \"compounds across 30k tokens\" (the ratio is per token). Length stayed ~20 min; NotebookLM \"default\" ignores a 15-min request. Published take2.\n"
+}
