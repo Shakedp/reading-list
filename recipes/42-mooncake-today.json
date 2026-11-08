@@ -1,0 +1,34 @@
+{
+ "episode": 42,
+ "file": "42-mooncake-today.mp3",
+ "title": "Mooncake Today: Transfer Engine and Mooncake Store",
+ "format": "deep-dive",
+ "length": "short",
+ "language": "en",
+ "focus": "Audience: inference-infrastructure engineers who already know the Mooncake paper (FAST '25, KVCache-centric disaggregated serving). Do not recap the paper.\n\nCover Mooncake as a software project today, in this order:\n1. Transfer Engine: segments, batch transfers, transports (RDMA, NVLink, TCP, EFA), topology-aware NIC selection and multi-NIC striping.\n2. Mooncake Store: master service (metadata only, never the payload), clients doing put/get with peer-to-peer data transfer, replication, soft/hard pinning, HA via etcd.\n3. Integrations, accurately: vLLM uses Mooncake as a KV connector for prefill/decode disaggregation and Mooncake Store for cross-instance KV cache sharing; SGLang uses the Transfer Engine for PD disaggregation, Mooncake Store as a HiCache storage tier, and as a backend for encode-prefill-decode (EPD) disaggregation. Mention all of these, not just one.\n\nRules: only state numbers the sources state, and attribute them (the \"75% more requests\" figure is from Kimi's production deployment of the whole Mooncake architecture, not from one feature). No speculation about the future of GPUs or HBM. No hype phrases like \"changes everything\" or \"rewrites the math\". End with a short, concrete recap of when you would reach for Transfer Engine vs Mooncake Store.\n",
+ "sources": [
+  {
+   "title": "GitHub - kvcache-ai/Mooncake: Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI. · GitHub",
+   "type": "web_page",
+   "url": "https://github.com/kvcache-ai/Mooncake"
+  },
+  {
+   "title": "Mooncake Architecture — Mooncake",
+   "type": "web_page",
+   "url": "https://kvcache-ai.github.io/Mooncake/design/architecture.html"
+  },
+  {
+   "title": "Mooncake Store — Mooncake",
+   "type": "web_page",
+   "url": "https://kvcache-ai.github.io/Mooncake/design/store/mooncake-store.html"
+  },
+  {
+   "title": "Transfer Engine — Mooncake",
+   "type": "web_page",
+   "url": "https://kvcache-ai.github.io/Mooncake/design/transfer-engine/index.html"
+  }
+ ],
+ "generated_at": "2026-11-08T15:52:00+00:00",
+ "generator": "NotebookLM CLI, version 0.8.6 (956400aa)",
+ "review_notes": "# 42 Mooncake review log\n- take1 (6:09): accurate on TE/Store, but SGLang reduced to EPD only (missed PD + HiCache), vLLM PD connector missing,\n  75% figure attributed to \"leveraging cluster memory\", speculative hype ending. -> focus2.txt: ordered coverage list,\n  explicit integrations, attribute numbers, no speculation, end with TE-vs-Store recap.\n- take2 (6:04): all fixed. Minor hook filler in intro. PASSED.\n"
+}
